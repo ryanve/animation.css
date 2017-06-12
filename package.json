@@ -1,0 +1,31 @@
+{
+  "name": "animation.css",
+  "version": "0.0.0",
+  "description": "CSS animation functional classes",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "main.css",
+  "scripts": {
+    "prestart": "npm update",
+    "start": "npm run css",
+    "css": "postcss module.css --use autoprefixer --no-map -o main.css"
+  },
+  "homepage": "https://github.com/ryanve/animation.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/animation.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/animation.css/issues"
+  },
+  "keywords": [
+    "css",
+    "animate",
+    "animation",
+    "functional-css"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "postcss-cli": "^4.0.0"
+  }
+}
